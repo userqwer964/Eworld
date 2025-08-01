@@ -34,5 +34,15 @@ import time_series_visualizer as ts
 ts.draw_line_plot()
 ts.draw_bar_plot()
 ts.draw_box_plot()
+#
+
 
 #
+import sea_level_predictor as slp
+import matplotlib.pyplot as plt
+
+fig = slp.draw_plot()
+fig.savefig('sea_level_plot.png')
+plt.show()
+#
+
